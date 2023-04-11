@@ -14,3 +14,4 @@ else
 {
     System.Console.WriteLine($"День недели № {weekNumber} - будний день");
 }
+
