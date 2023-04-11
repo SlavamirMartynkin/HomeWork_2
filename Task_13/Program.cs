@@ -19,6 +19,5 @@ if (length < 3)
 else
 {
     count = count / 1000;
-    System.Console.WriteLine(count);
     System.Console.WriteLine($"Третья цифра числа {number1} - это {number1 / count % 10}");
 }
