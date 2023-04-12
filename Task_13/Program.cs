@@ -5,6 +5,11 @@ int number1 = int.Parse(number);
 int length = 1;
 int count = 10;
 
+if (number1 < 0)
+{
+    number1 = number1 * -1;
+}
+
 while (number1 / count > 0)
 {
     length++;
@@ -19,5 +24,5 @@ if (length < 3)
 else
 {
     count = count / 1000;
-    System.Console.WriteLine($"Третья цифра числа {number1} - это {number1 / count % 10}");
+    System.Console.WriteLine($"Третья цифра числа {number} - это {number1 / count % 10}");
 }
